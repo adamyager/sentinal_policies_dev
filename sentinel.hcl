@@ -1,17 +1,17 @@
 policy "working-hours" {
-  enforcement_level = "soft-mandatory"
+  enforcement_level = "advisory"
 }
 
 policy "aws-block-allow-all" {
-  enforcement_level = "soft-mandatory"
+  enforcement_level = "advisory"
 }
 
 policy "aws-restrict-instance-type-default" {
-  enforcement_level = "soft-mandatory"
+  enforcement_level = "advisory"
 }
 
 policy "change-window-hours" {
-  enforcement_level = "soft-mandatory"
+  enforcement_level = "advisory"
 }
 
 policy "azurerm-restrict-vm-size" {
