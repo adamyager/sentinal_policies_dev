@@ -15,7 +15,7 @@ policy "change-window-hours" {
 }
 
 policy "azurerm-restrict-vm-size" {
-  enforcement_level = "soft-mandatory"
+  enforcement_level = "hard-mandatory"
 }
 
 policy "require-modules-from-pmr" {
