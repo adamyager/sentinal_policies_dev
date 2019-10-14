@@ -11,6 +11,6 @@ policy "require-modules-from-pmr" {
   enforcement_level = "hard-mandatory"
 }
 
-policy "blacklist-resources.sentinel" {
+policy "blacklist-resources" {
   enforcement_level = "hard-mandatory"
 }
