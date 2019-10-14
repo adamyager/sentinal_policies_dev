@@ -13,3 +13,7 @@ policy "azurerm-restrict-vm-size" {
 policy "require-modules-from-pmr" {
   enforcement_level = "hard-mandatory"
 }
+
+policy "blacklist-resources.sentinel" {
+  enforcement_level = "hard-mandatory"
+}
