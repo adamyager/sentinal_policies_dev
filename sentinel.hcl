@@ -15,6 +15,6 @@ policy "blacklist-resources" {
   enforcement_level = "hard-mandatory"
 }
 
-policy "cost-estimate.sentinel" {
+policy "cost-estimate" {
   enforcement_level = "soft-mandatory"
 }
