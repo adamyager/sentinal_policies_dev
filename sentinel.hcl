@@ -14,3 +14,7 @@ policy "require-modules-from-pmr" {
 policy "blacklist-resources" {
   enforcement_level = "hard-mandatory"
 }
+
+policy "cost-estimate" {
+  enforcement_level = "soft-mandatory"
+}
